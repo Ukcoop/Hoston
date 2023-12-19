@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  border-top: var(--accent);
+  border-width: 2px;
+  border-style: solid;
+}
+
+* {
+  color: var(--text);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--background);
+  border: var(--accent);
+  border-width: 2px;
+  --text: #e8f2fc;
+  --background: #13171b;
+  --primary: #b3c9df;
+  --secondary: #121b26;
+  --accent: #567eae;
+  --fsDeselected: #333333;
+  --fsSelected: #555555;
+}
+
+.mdRenderer {
+  width: 45.1vw;
+  max-height: 90vh;
+  border-right: 2px;
+  border-left: 0px;
+  border-top: 2px;
+  border-style: solid;
+  border-color: var(--accent);
+  height: 95vh;
+  padding: 15px;
+}
+
+.label:a {
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.label {
+  border-width: 2px;
+  border-right-color: var(--accent);
+  border-style: solid;
+  border-right: 2px;
+  border-top: 0px;
+  border-left: 2px;
+  border-bottom: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  max-height: 4vh;
+  width: 99%;
+}
+
+.fullSizeEditor {
+  width: 95vw;
+  max-height: 90vh;
+  height: 95vh;
+  border-width: 2px;
+  border-top: 2px;
+  border-color: var(--accent);
+  border-left: 0px;
+  border-style: solid;
+  outline: none;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.halfSizeEditor {
+  width: 48vw;
+  max-height: 90vh;
+  height: 95vh;
+  border-width: 0px;
+  border-right: 2px;
+  border-top: 2px;
+  border-color: var(--accent);
+  border-style: solid;
+  outline: none;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.buttonActive {
+  background-color: var(--primary);
+  color: var(--background);
+  border-radius: 4px;
+  margin: 5px;
+  padding: 7px;
+}
+
+.buttonInactive {
+  background-color: var(--accent);
+  color: var(--text);
+  border-radius: 4px;
+  margin: 5px;
+  padding: 7px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

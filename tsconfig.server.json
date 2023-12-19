@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "outDir": "server"
+    },
+    "include": ["src/backend"]
+}
